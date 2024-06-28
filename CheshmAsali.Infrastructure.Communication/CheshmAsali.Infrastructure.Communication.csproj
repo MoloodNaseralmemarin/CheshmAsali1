@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Smtp\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CheshmAsali.Domain.Data\CheshmAsali.Domain.Data.csproj" />
+    <ProjectReference Include="..\CheshmAsali.Domain.Models\CheshmAsali.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>

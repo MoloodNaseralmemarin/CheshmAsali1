@@ -1,0 +1,18 @@
+﻿<Window x:Class="CheshmAsali.Desktop.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheshmAsali.Desktop.Views"
+        mc:Ignorable="d"
+        Title="Login"
+        Height="235"
+        Width="495">
+    <Grid>
+        <Button Content="Hello"
+                HorizontalAlignment="Left"
+                Margin="240,104,0,0"
+                VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
